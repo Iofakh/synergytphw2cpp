@@ -4,24 +4,24 @@
 int main()
 {
     int a, b;
-    printf("Please type 1st nunber: ");
+    printf("Введите первое число: ");
     scanf_s("%i", &a);
-    printf("Please type 2nd nunber: ");
+    printf("введите второе число: ");
     scanf_s("%i", &b);
 
     if (a > b)
     {
-        printf("The 1st number is greater then 2nd number");
+        printf("Больше");
     }
     else
     {
         if (a == b)
         {
-            printf("The numbers are equal");
+            printf("Равны");
         }
         else
         {
-            printf("The 1st number is less then 2nd number");
+            printf("Меньше");
         }
     }
 }
