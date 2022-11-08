@@ -6,7 +6,7 @@ int main()
     int a, b;
     printf("Введите первое число: ");
     scanf_s("%i", &a);
-    printf("введите второе число: ");
+    printf("Введите второе число: ");
     scanf_s("%i", &b);
 
     if (a > b)
