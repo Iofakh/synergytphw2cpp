@@ -6,7 +6,7 @@ int main()
     int a, b;
     printf("Please type 1st nunber: ");
     scanf_s("%i", &a);
-    printf("Please type 1st nunber: ");
+    printf("Please type 2nd nunber: ");
     scanf_s("%i", &b);
 
     if (a > b)
